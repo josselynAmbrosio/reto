@@ -1,0 +1,51 @@
+.intro {
+  background-image: url(../img/home.png);
+  height: 726px;
+}
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.row {
+  margin-right: 0px;
+}
+.home-icon{
+  text-align: center;
+  padding: 50px 0;
+}
+.home-texto{
+  text-align: center;
+  color: rgb(48, 194, 227);
+  padding: 0 7%;
+}
+.home-texto h3{
+  color: rgb(188, 188, 188);
+}
+.btn-danger {
+  color: #fff;
+  background-color: #FF6A49;
+ 		
+}
+.btn{
+  padding: 9px 32px;
+  border-radius: 10px;
+}
+.flecha {
+  position: relative;
+  text-align: center;
+  top: 33%;
+}
+.metodologia-texto {
+  text-align: center;
+  margin: 7%;
+}
+.metodologia-texto h2{
+  margin-bottom: 3%;
+  color: rgb(48, 194, 227);
+}
+.metodologia-texto h3{
+	display: inline-block;
+	color: rgb(255, 106, 73);
+}
+.metodologia-texto h4{
+	display: inline-block;
+}
