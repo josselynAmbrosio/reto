@@ -32,7 +32,7 @@ nav.navbar.navbar-default {
 .flecha {
   position: relative;
   text-align: center;
-  top: 33%;
+  top: 27%;
 }
 .metodologia-texto {
   text-align: center;
@@ -48,4 +48,102 @@ nav.navbar.navbar-default {
 }
 .metodologia-texto h4{
 	display: inline-block;
+}
+.linea1 {
+   height: 215px;
+  border-bottom: 1px solid;
+  -webkit-transform: translateY(-59px) 
+  translateX(234px) 
+  rotate(76deg);
+  position: absolute;
+  top: 154px;
+  border: 2px dashed;
+  color: #ff6a49;
+}
+.linea2 {
+  height: 192px;
+  -webkit-transform: translateY(-44px)
+   translateX(13px)
+    rotate(108deg);
+  position: absolute;
+  top: 154px;
+  border: 2px dashed;
+  color: #ff6a49;
+}
+.linea3 {
+  height: 140px;
+  -webkit-transform: translateY(100px)
+   translateX(230px)
+    rotate(180deg);
+  position: absolute;
+  top: 348px;
+  border: 2px dashed;
+  color: #ff6a49;
+}
+.interno{
+  border: dashed;
+  border-radius: 50%;
+  width: 450px;
+  margin: auto;
+  height: 450px;
+  color: white;
+}
+.texto-interno{
+ text-align: center;
+  margin: 24% 12%;
+}
+.texto-interno h4{
+   line-height: 40px;
+   font-size: 25px;
+}
+.externo{
+  border-radius: 50%;
+  width: 461px;
+  margin: auto;
+  height: 465px;
+  padding-top: 8px;
+  background-color: rgb(255, 106, 73);
+}
+.texto-derecha{
+  position: absolute;
+  top: 242px;
+  text-align: center;
+  left: 30px;
+}
+.texto-derecha h3{
+  color: rgb(255, 106, 73);
+}
+.texto-derecha h4{
+    color: #bcbcbc;
+  line-height: 25px;
+  font-size: 19px;
+}
+.texto-izquierda{
+  position: absolute;
+  top: 242px;
+  text-align: center;
+  right: 30px;
+}
+.texto-izquierda h3{
+  color: rgb(255, 106, 73);
+}
+.texto-izquierda h4{
+    color: #bcbcbc;
+  line-height: 25px;
+  font-size: 19px;
+}
+.texto-abajo{
+   position: absolute;
+  top: 130%;
+  width: 47%;
+  text-align: center;
+  left: 29%;
+}
+.texto-abajo h3{
+  color: rgb(255, 106, 73);
+}
+.texto-abajo h4{
+   color: #bcbcbc;
+  line-height: 25px;
+  font-size: 19px;
 }
