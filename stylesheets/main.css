@@ -5764,7 +5764,8 @@ nav.navbar.navbar-default {
   padding-top: 10%; }
 
 .lista {
-  list-style: none; }
+  list-style: none;
+  margin-bottom: 16%; }
 
 .lista-titular {
   border-bottom: 1px solid #25d9ef;
@@ -5772,8 +5773,36 @@ nav.navbar.navbar-default {
   width: 27%;
   margin: 2% 0; }
 
+.texto-centros {
+  margin-top: 10%; }
+
+.texto-centro {
+  margin-top: 10%; }
+
 .boton-vermas {
-  margin-top: 31%; }
+  width: 32%;
+  position: relative;
+  top: 76px;
+  margin-left: inherit; }
+
+.boton-vertodos {
+  text-align: center;
+  margin-top: 10%; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #BCBCBC;
+  border-color: #BCBCBC; }
+
+.btn-default {
+  color: #FC060B;
+  background-color: #fff;
+  border-color: #F40B0B; }
+
+.flecha4 {
+  position: relative;
+  text-align: center;
+  top: 145px; }
 
 @media screen and (max-width: 480px) {
   .navbar-toggle {
