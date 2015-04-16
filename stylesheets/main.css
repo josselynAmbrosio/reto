@@ -5521,12 +5521,20 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
-.intro {
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.container-intro {
   background-image: url(../img/home.png);
   height: 726px; }
 
 nav.navbar.navbar-default {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent; }
 
 .row {
   margin-right: 0px; }
@@ -5589,12 +5597,12 @@ nav.navbar.navbar-default {
   color: #ff6a49; }
 
 .linea3 {
-  height: 140px;
-  -webkit-transform: translateY(100px) translateX(230px) rotate(180deg);
+  width: 112px;
+  -webkit-transform: translateY(17px) translateX(186px) rotate(89deg);
   position: absolute;
-  top: 348px;
   border: 2px dashed;
-  color: #ff6a49; }
+  color: #ff6a49;
+  top: 14%; }
 
 .interno {
   border: dashed;
@@ -5621,7 +5629,7 @@ nav.navbar.navbar-default {
   background-color: #ff6a49; }
 
 .texto-derecha {
-  position: absolute;
+  position: relative;
   top: 242px;
   text-align: center;
   left: 30px; }
@@ -5635,7 +5643,7 @@ nav.navbar.navbar-default {
   font-size: 19px; }
 
 .texto-izquierda {
-  position: absolute;
+  position: relative;
   top: 242px;
   text-align: center;
   right: 30px; }
@@ -5649,18 +5657,50 @@ nav.navbar.navbar-default {
   font-size: 19px; }
 
 .texto-abajo {
+  padding-top: 56px;
+  text-align: center; }
+  .texto-abajo h3 {
+    color: #ff6a49; }
+  .texto-abajo h4 {
+    color: #bcbcbc;
+    line-height: 25px;
+    font-size: 19px; }
+
+.boton-interno .btn {
+  padding: 16px 69px;
+  border-radius: 25px;
   position: absolute;
-  top: 130%;
-  width: 47%;
-  text-align: center;
-  left: 29%; }
+  top: 193%;
+  left: 33%; }
 
-.texto-abajo h3 {
-  color: #ff6a49; }
+.boton-abajo {
+  position: absolute;
+  left: 46%;
+  top: 268%; }
 
-.texto-abajo h4 {
-  color: #bcbcbc;
-  line-height: 25px;
-  font-size: 19px; }
+.ejemplo {
+  background-image: url(../img/img-02.png);
+  height: 700px; }
+
+@media screen and (max-width: 480px) {
+  .navbar-toggle {
+    float: left; }
+
+  .texto-izquierda {
+    display: block;
+    position: relative; }
+
+  .texto-derecha {
+    display: block;
+    position: relative; }
+
+  .texto-abajo {
+    display: block;
+    position: relative; }
+
+  .btn {
+    position: absolute;
+    float: right;
+    bottom: 101%; } }
 
 /*# sourceMappingURL=main.css.map */

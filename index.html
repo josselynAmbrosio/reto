@@ -8,7 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+  <div class="container-intro">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -18,7 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand hidden-xs" href="#">Brand</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -34,15 +35,6 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    <div class="intro">
-      <div class="menu-oculto" navbar-right>
-          <nav>
-            <a class="hidden-xs" data-scroll="" href="#beneficios">Beneficios</a> 
-            <a class="hidden-xs" data-scroll="" href="#video">Video</a> 
-            <a class="hidden-xs" data-scroll="" href="#testimonios">Testimoniales</a> 
-            <a class="btn btn-cta" href="/cuenta.html">Crea tu cuenta</a> 
-          </nav>
-        </div>
       <div class="row">
         <div class="col-md-6 col-sm-6"></div>
         <div class="col-md-6 col-sm-6">
@@ -54,53 +46,99 @@
           </div>
         </div>
       </div>
-      <div class="flecha flecha-abajo">
+      <div class="flecha flecha-abajo hidden-xs">
           <img src="icon/iconos-15.png">
       </div>  
     </div>
-    <section class="container metodologia"> 
-      <div class="metodologia-texto"> 
-          <h2> Nuestra metodologia</h2>
-          <img src="icon/iconos-17.png">  
-          <h3>Nuestro examen es 3 veces más fuerte</h3><br>
-          <h4>que el proceso interno aplicado por nuestros propios clientes.</h4>
-          <img src="icon/iconos-18.png"> 
-      </div>  
-      <div class="row">
-        <div class="col-md-3">
-          <div class="linea1"></div>
-          <div class="texto-derecha">
-            <h3>Evaluación de competencias</h3>
-            <h4>Seleccion de talento que cuenta con las competencias claves para el puesto</h4>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="externo">
-            <div class="interno">
-              <div class="texto-interno">
-                <h4>Obtenemos el perfil profesional del postulante mediante un analisis completo que identifica el mejor talento para cualquier puesto.
-                <br>Nos bastamos en 3 pilares.</h4>
-              </div>
+    <section class="container-metodologia"> 
+      <div class="container-fluid">
+        <div class="metodologia-texto hidden-xs"> 
+            <h2> Nuestra metodologia</h2>
+            <img src="icon/iconos-17.png">  
+            <h3>Nuestro examen es 3 veces más fuerte</h3><br>
+            <h4>que el proceso interno aplicado por nuestros propios clientes.</h4>
+            <img src="icon/iconos-18.png"> 
+        </div>  
+        <div class="row">
+          <div class="col-md-3">
+            <div class="linea1"></div>
+            <div class="texto-derecha">
+              <h3>Evaluación de competencias</h3>
+              <h4>Seleccion de talento que cuenta con las competencias claves para el puesto</h4>
             </div>
-          <div class="linea3"></div>
-          <div class="texto-abajo">
-            <h3>Análisis continuo</h3>
-            <h4>Actualizacion continua del perfil optimo para cada puesto.que permita incorporar cambios a la economia laboral u operaciones internas que inpacten el dia a dia.</h4>
           </div>
+          <div class="col-md-6">
+            <div class="externo hidden-xs">
+              <div class="interno">
+                <div class="texto-interno">
+                  <h4>Obtenemos el perfil profesional del postulante mediante un analisis completo que identifica el mejor talento para cualquier puesto.
+                  <br>Nos bastamos en 3 pilares.</h4>
+                </div>
+                <!-- Contextual button for informational alert messages -->
+                <div class="boton-interno">
+                  <button type="button" class="btn btn-info">VER MÁS</button>
+                </div>
+              </div> 
+            </div>
+            <div class="linea-container relative">
+              <div class="linea3"></div>
+            </div>
+            <div class="texto-abajo">
+              <h3>Análisis continuo</h3>
+              <h4>Actualizacion continua del perfil optimo para cada puesto.que permita incorporar cambios a la economia laboral u operaciones internas que inpacten el dia a dia.</h4>
+            </div>
           </div>
+          <div class="col-md-3">
+            <div class="linea-container">
+              <div class="linea2"></div>
+            </div>
+            <div class="texto-izquierda">
+              <h3>Evaluación de preferencias</h3>
+              <h4>Seleccion de talento que permanecera mas tiempo por tener preferencias de trabajo alineadas con el puesto </h4>
+            </div>
+          </div>
+          <div class="boton-abajo hidden-xs"><img src="icon/iconos-15.png"></div>
         </div>
-        <div class="col-md-3">
-          <div class="linea2"></div>
-          <div class="texto-izquierda">
-            <h3>Evaluación de preferencias</h3>
-            <h4>Seleccion de talento que permanecera mas tiempo por tener preferencias de trabajo alineadas con el puesto </h4>
-          </div>
-        </div>
+        
       </div>
     </section>
+    <section>
+      <div class="container-fluid ejemplo"></div>
+    </section>
+
+    <!-- <section class="container-empresas">
+      <h3>Farolito para empresas</h3>
+      <span>Contrata al mejor talento</span>
+      <p>Somos el proveedor estrategico para bajar la rotacion y subir la productividad de los trabajadores</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="icono1"><img src=""></div>
+          <div class="empresas-texto1">
+            <h3>Evaluar postulantes</h3>
+            <p>El examen farolito identifica a las personas que  no solamente harán bien el trabajo.sino que permaneceran mas tiempo en el. </p>
+            <h4>Ver más informacion</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icono1"><img src=""></div>
+          <div class="empresas-texto1">
+            <h3>Evaluar postulantes</h3>
+            <p>El examen farolito identifica a las personas que  no solamente harán bien el trabajo.sino que permaneceran mas tiempo en el. </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icono1"><img src=""></div>
+          <div class="empresas-texto1">
+            <h3>Evaluar postulantes</h3>
+            <p>El examen farolito identifica a las personas que  no solamente harán bien el trabajo.sino que permaneceran mas tiempo en el. </p>
+        </div>
+      </div>
+      </div>
+    </section> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Javascripts de Bootstrap -->
-		<script src="javascript/b3/collapse.js"></script>
-		<script src="javascript/b3/transition.js"></script>
+    <script src="javascripts/b3/dropdown.js"></script>
+		<script src="javascripts/b3/collapse.js"></script>
+		<script src="javascripts/b3/transition.js"></script>
 	</body>	
 </html>

@@ -1,9 +1,11 @@
-.intro {
+.container-intro {
   background-image: url(../img/home.png);
   height: 726px;
 }
 nav.navbar.navbar-default {
   margin-bottom: 0;
+  background-color: transparent;
+  border-color: transparent;
 }
 .row {
   margin-right: 0px;
@@ -71,14 +73,14 @@ nav.navbar.navbar-default {
   color: #ff6a49;
 }
 .linea3 {
-  height: 140px;
-  -webkit-transform: translateY(100px)
-   translateX(230px)
-    rotate(180deg);
+    width: 112px;
+  -webkit-transform: translateY(17px)
+   translateX(186px)
+    rotate(89deg);
   position: absolute;
-  top: 348px;
   border: 2px dashed;
   color: #ff6a49;
+  top: 14%;
 }
 .interno{
   border: dashed;
@@ -105,7 +107,7 @@ nav.navbar.navbar-default {
   background-color: rgb(255, 106, 73);
 }
 .texto-derecha{
-  position: absolute;
+  position: relative;
   top: 242px;
   text-align: center;
   left: 30px;
@@ -119,7 +121,7 @@ nav.navbar.navbar-default {
   font-size: 19px;
 }
 .texto-izquierda{
-  position: absolute;
+  position: relative;
   top: 242px;
   text-align: center;
   right: 30px;
@@ -133,17 +135,65 @@ nav.navbar.navbar-default {
   font-size: 19px;
 }
 .texto-abajo{
-   position: absolute;
-  top: 130%;
-  width: 47%;
+  padding-top: 56px;
   text-align: center;
-  left: 29%;
+  h3 {
+  	color: rgb(255, 106, 73);	
+  }
+  h4 {
+	color: #bcbcbc;
+  	line-height: 25px;
+  	font-size: 19px;
+  }
 }
-.texto-abajo h3{
-  color: rgb(255, 106, 73);
+
+.boton-interno .btn {
+  padding: 16px 69px;
+  border-radius: 25px;
+  position: absolute;
+  top: 193%;
+  left: 33%;
 }
-.texto-abajo h4{
-   color: #bcbcbc;
-  line-height: 25px;
-  font-size: 19px;
+.boton-abajo{
+   position: absolute;
+  left: 46%;
+  top: 268%;
+}
+.ejemplo{
+background-image: url(../img/img-02.png);
+  height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:$screen-phone){
+	.navbar-toggle{
+		float: left;
+	}
+
+	.texto-izquierda{
+		display: block;
+		position: relative;
+	}
+	.texto-derecha{
+		display: block;
+		position: relative;
+	}
+	.texto-abajo{
+		display: block;
+		position: relative;
+	}
+	.btn{
+		 position: absolute;
+  		float: right;
+  		bottom: 101%;
+	}
 }
