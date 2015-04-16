@@ -36,6 +36,11 @@ nav.navbar.navbar-default {
   text-align: center;
   top: 27%;
 }
+.flecha2 {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
 .metodologia-texto {
   text-align: center;
   margin: 7%;
@@ -144,6 +149,7 @@ nav.navbar.navbar-default {
 	color: #bcbcbc;
   	line-height: 25px;
   	font-size: 19px;
+  	padding-bottom: 32%;
   }
 }
 
@@ -151,7 +157,7 @@ nav.navbar.navbar-default {
   padding: 16px 69px;
   border-radius: 25px;
   position: absolute;
-  top: 193%;
+  top: 83%;
   left: 33%;
 }
 .boton-abajo{
@@ -159,10 +165,42 @@ nav.navbar.navbar-default {
   left: 46%;
   top: 268%;
 }
-.ejemplo{
-background-image: url(../img/img-02.png);
-  height: 700px;
+.postulante{
+  background-image: url(../img/img-02.png);
 }
+.texto-postulante{
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+.icono-10{
+  position: relative;
+  left: 87%;
+  bottom: 28px;
+}
+.texto-crea{
+  border-bottom: 2px dashed;
+  color: white;
+}
+.logonumero1{
+	text-align: right;
+}
+.parrafo-crea{
+	color: white;
+    padding: 4% 12%;
+   font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -182,10 +220,15 @@ background-image: url(../img/img-02.png);
 	.texto-izquierda{
 		display: block;
 		position: relative;
+		top: 0;
+		right: 0;
 	}
 	.texto-derecha{
 		display: block;
 		position: relative;
+		position: relative;
+  		top: 0;
+  		left: 0;
 	}
 	.texto-abajo{
 		display: block;
