@@ -5695,11 +5695,14 @@ nav.navbar.navbar-default {
 .icono-10 {
   position: relative;
   left: 87%;
-  bottom: 28px; }
+  bottom: 66px; }
 
 .texto-crea {
-  border-bottom: 2px dashed;
+  border-bottom: 1px dashed;
   color: white; }
+  .texto-crea h4 {
+    padding-right: 163px;
+    font-size: 27px; }
 
 .logonumero1 {
   text-align: right; }
@@ -5707,7 +5710,70 @@ nav.navbar.navbar-default {
 .parrafo-crea {
   color: white;
   padding: 4% 12%;
-  font-size: 32px; }
+  font-size: 29px; }
+
+.boton-ver {
+  padding: 3%;
+  text-align: center; }
+
+.btn-info {
+  border-color: #FFFFFF; }
+
+.empresas {
+  text-align: center; }
+
+.empresas-texto h3 {
+  color: grey; }
+.empresas-texto h4 {
+  color: #37c2bc; }
+
+.border-bottom {
+  border-bottom: 1px dashed;
+  width: 27%;
+  margin: 3% auto;
+  color: red; }
+
+.centros {
+  background-color: #77d248;
+  height: 700px;
+  text-align: center; }
+
+.texto-centros h3, .texto-centros p {
+  color: white; }
+.texto-centros span {
+  color: #cdf30d; }
+.texto-centros h4 {
+  color: black; }
+
+.btn-success {
+  background-color: #77d248;
+  border-color: #EBF4EB; }
+
+.border-bottom2 {
+  border-bottom: 1px dashed;
+  width: 27%;
+  margin: 3% auto;
+  color: white; }
+
+.lista-oportunidades {
+  background-image: url(../img/img-03.png);
+  height: 1169px; }
+
+.lista-titulo {
+  text-align: center;
+  padding-top: 10%; }
+
+.lista {
+  list-style: none; }
+
+.lista-titular {
+  border-bottom: 1px solid #25d9ef;
+  color: #25d9ef;
+  width: 27%;
+  margin: 2% 0; }
+
+.boton-vermas {
+  margin-top: 31%; }
 
 @media screen and (max-width: 480px) {
   .navbar-toggle {

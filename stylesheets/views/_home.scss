@@ -176,11 +176,15 @@ nav.navbar.navbar-default {
 .icono-10{
   position: relative;
   left: 87%;
-  bottom: 28px;
+  bottom: 66px;
 }
 .texto-crea{
-  border-bottom: 2px dashed;
+  border-bottom: 1px dashed;
   color: white;
+  h4{
+  	padding-right: 163px;
+  	font-size: 27px;
+  }
 }
 .logonumero1{
 	text-align: right;
@@ -188,17 +192,82 @@ nav.navbar.navbar-default {
 .parrafo-crea{
 	color: white;
     padding: 4% 12%;
-   font-size: 32px;
+   font-size: 29px;
 }
 
+.boton-ver {
+	padding: 3%;
+	text-align: center;
+}
+.btn-info{
+	border-color: #FFFFFF;
 
+}
+.empresas{
+	text-align:center;	
+}
+.empresas-texto {
+	h3{
+	color: grey;
+}
+	h4{
+		color: rgb(55, 194, 188);
+	}
+}
+.border-bottom{
+  border-bottom: 1px dashed;
+  width: 27%;
+  margin: 3% auto;
+  color: red;
+}
+.centros{
+  background-color: #77d248;
+  height: 700px;
+  text-align:center;	
+}
+.texto-centros{
+	h3,p{
+	color: white;
+}
+	span{
+		color:rgb(205, 243, 13);
+		}
+	h4{
+		color:black ;
+	}
 
+}
+.btn-success {
+  background-color: #77d248;
+  border-color: #EBF4EB;
+}
+.border-bottom2{
+  border-bottom: 1px dashed;
+  width: 27%;
+  margin: 3% auto;
+  color: white;
+}
+.lista-oportunidades{
+   background-image: url(../img/img-03.png);
+  height: 1169px;	
 
-
-
-
-
-
+}
+.lista-titulo{
+  text-align: center;
+  padding-top: 10%;
+}
+.lista{
+	list-style:none;
+}
+.lista-titular{
+  border-bottom: 1px solid rgb(37, 217, 239);
+  color: rgb(37, 217, 239);
+  width: 27%;
+  margin: 2% 0;
+}
+.boton-vermas{
+  margin-top: 31%;
+}
 
 
 
