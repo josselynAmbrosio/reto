@@ -79,9 +79,9 @@ nav.navbar.navbar-default {
 }
 .linea3 {
     width: 112px;
-  -webkit-transform: translateY(17px)
-   translateX(186px)
-    rotate(89deg);
+  -webkit-transform: translateY(58px) 
+  translateX(213px)
+   rotate(89deg);
   position: absolute;
   border: 2px dashed;
   color: #ff6a49;
@@ -141,7 +141,7 @@ nav.navbar.navbar-default {
   font-size: 19px;
 }
 .texto-abajo{
-  padding-top: 56px;
+  padding-top: 113px;
   text-align: center;
   h3 {
   	color: rgb(255, 106, 73);	
@@ -201,7 +201,7 @@ nav.navbar.navbar-default {
 .parrafo-crea{
 	color: white;
     padding: 4% 12%;
-   font-size: 29px;
+   font-size: 26px;
    padding-bottom: 0px;
 }
 
@@ -276,6 +276,9 @@ nav.navbar.navbar-default {
   width: 27%;
   margin: 2% 0;
 }
+ul{
+	color: rgb(188, 188, 188);
+}
 .texto-centros{
 	margin-top: 10%;
 }
@@ -312,7 +315,7 @@ nav.navbar.navbar-default {
 }
 
 .border-boton-dashed{
-  border: 1px dashed grey;
+  border: 1px dashed rgb(236, 231, 231);
   margin: 0% 21%;
   position: relative;
   top: 188px;
@@ -437,10 +440,42 @@ textarea {
 	.texto-abajo{
 		display: block;
 		position: relative;
+
 	}
 	.btn{
 		 position: absolute;
   		float: right;
   		bottom: 101%;
 	}
+	.redes{  
+	text-align: center;
+	}
+	.blog-texto{
+		background-color: white;
+		text-align: center;	
+	}
+	.linea1 {
+  -webkit-transform: translateY(-97px) 
+  translateX(211px) 
+  rotate(90deg);
+	}
+	.linea3 {
+  width: 223px;
+  -webkit-transform: translateY(344px)
+   translateX(107px)
+    rotate(180deg);
+	}
+	.content {
+   padding: 3% 18% 4% 3%;
+   margin-bottom: 18px;
 }
+.titulo-contacto {
+  padding: 0% 12%;
+	}
+	.fondo-canbio {
+  background-color: aliceblue;
+	}
+}
+
+
+
