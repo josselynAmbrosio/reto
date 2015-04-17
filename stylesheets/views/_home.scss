@@ -95,6 +95,7 @@ nav.navbar.navbar-default {
   height: 450px;
   color: white;
 }
+
 .texto-interno{
  text-align: center;
   margin: 24% 12%;
@@ -177,6 +178,14 @@ nav.navbar.navbar-default {
   position: relative;
   left: 87%;
   bottom: 66px;
+  z-index: 8;
+}
+.dashed-left{
+  border-left: dashed 1px white;
+ 
+}
+.opcion2{
+	  height: 189px;
 }
 .texto-crea{
   border-bottom: 1px dashed;
@@ -193,6 +202,7 @@ nav.navbar.navbar-default {
 	color: white;
     padding: 4% 12%;
    font-size: 29px;
+   padding-bottom: 0px;
 }
 
 .boton-ver {
@@ -295,8 +305,73 @@ nav.navbar.navbar-default {
 .flecha4{
   position: relative;
   text-align: center;
-  top: 145px;
+  top: 66px;
 }
+.boton-contactanos{
+	margin-top: 7%;
+}
+
+.border-boton-dashed{
+  border: 1px dashed grey;
+  margin: 0% 21%;
+  position: relative;
+  top: 188px;
+}
+.flecha5{
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+.titulo-blog{
+  text-align: center;
+    margin-top: 9%;
+}
+.logo-blog{
+	text-align:center;	
+}
+.blog-texto{
+  background-color: rgb(241, 241, 241);
+  color: grey;
+  padding: 18% 15%;
+}
+.blog-texto:hover{
+  background-color: rgb(255,189,18);
+  color: white;
+  padding: 18% 15%;
+}
+.logo-blog img{
+	border-radius: 50%;
+}
+.logo-blog{
+  position: relative;
+  top: 36px;
+}
+.boton-blog{
+  text-align: center;
+  margin-top: 8%;
+}
+.flecha6{
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+.contacto{
+  background-color: rgb(241, 241, 241);
+  height: 900px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

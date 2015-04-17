@@ -5695,7 +5695,14 @@ nav.navbar.navbar-default {
 .icono-10 {
   position: relative;
   left: 87%;
-  bottom: 66px; }
+  bottom: 66px;
+  z-index: 8; }
+
+.dashed-left {
+  border-left: dashed 1px white; }
+
+.opcion2 {
+  height: 189px; }
 
 .texto-crea {
   border-bottom: 1px dashed;
@@ -5710,7 +5717,8 @@ nav.navbar.navbar-default {
 .parrafo-crea {
   color: white;
   padding: 4% 12%;
-  font-size: 29px; }
+  font-size: 29px;
+  padding-bottom: 0px; }
 
 .boton-ver {
   padding: 3%;
@@ -5802,7 +5810,59 @@ nav.navbar.navbar-default {
 .flecha4 {
   position: relative;
   text-align: center;
-  top: 145px; }
+  top: 66px; }
+
+.boton-contactanos {
+  margin-top: 7%; }
+
+.border-boton-dashed {
+  border: 1px dashed grey;
+  margin: 0% 21%;
+  position: relative;
+  top: 188px; }
+
+.flecha5 {
+  position: relative;
+  text-align: center;
+  top: 200px; }
+
+.titulo-blog {
+  text-align: center;
+  margin-top: 9%; }
+
+.logo-blog {
+  text-align: center; }
+
+.blog-texto {
+  background-color: #f1f1f1;
+  color: grey;
+  padding: 18% 15%; }
+
+.blog-texto:hover {
+  background-color: #ffbd12;
+  color: white;
+  padding: 18% 15%; }
+
+.logo-blog img {
+  border-radius: 50%; }
+
+.logo-blog {
+  position: relative;
+  top: 36px; }
+
+.boton-blog {
+  text-align: center;
+  margin-top: 8%; }
+
+.flecha6 {
+  position: relative;
+  text-align: center;
+  top: 40px; }
+
+.contacto {
+  background-color: #f1f1f1;
+  height: 900px;
+  text-align: center; }
 
 @media screen and (max-width: 480px) {
   .navbar-toggle {
