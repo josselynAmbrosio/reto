@@ -357,13 +357,44 @@ nav.navbar.navbar-default {
 }
 .contacto{
   background-color: rgb(241, 241, 241);
-  height: 900px;
+  height: 622px;
   text-align: center;
 }
-
-
-
-
+.columna {
+  padding-bottom: 1%;
+}
+.content{
+	padding: 1% 15% 1% 1%;
+}
+textarea {
+  padding: 17px 25px 10px 10px;
+  resize:none;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #BCBCBC;
+  border-color: #BCBCBC;
+}
+.titulo-contacto{
+	margin: 7% 0% 5%;
+	color: 	rgb(188, 188, 188);
+}
+.redes img{
+	border-radius: 50%;
+  border: 2px solid white;
+}
+.redes{
+  position: relative;
+  bottom: 20px;
+}
+.footer{
+	background: rgb(188, 188, 188);
+	height:90px;
+}
+.text-footer{
+	text-align: right;
+    color: white;
+}
 
 
 
