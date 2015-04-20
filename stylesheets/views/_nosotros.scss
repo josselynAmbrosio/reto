@@ -1,0 +1,111 @@
+/*@font-face {
+font-family:lato-Italic;
+src: url("../fonts/lato-Italic.ttf");
+}
+@font-face {
+font-family:lato-Bold;
+src: url("../fonts/lato-Bold.ttf");
+}
+@font-face {
+font-family:lato-Black;
+src: url("../fonts/lato-Black.ttf");
+}
+@font-face {
+font-family:lato-Regular;
+src: url("../fonts/lato-Regular.ttf");
+}
+@font-face {
+font-family:lato-Hairline;
+src: url("../fonts/Hairline.ttf");
+}
+@font-face {
+font-family:lato-lightitalic;
+src: url("../fonts/lato-lightitalic.ttf");
+}
+@font-face {
+font-family:lato-lightitalic;
+src: url("../fonts/lato-lightitalic.ttf");
+}*/
+
+
+.nav{
+	background-color: aliceblue;
+}
+.nosotros-home{
+	background-image: url(../img/img_nosotros-02.png);
+	height: 623px;
+	}
+.home-introduccion{
+	padding: 16% 30%;
+	text-align: center;
+	color: white;
+}
+.home-icono{
+  text-align: center;
+  position: relative;
+  top: 40px;
+}	
+.fundadores{
+  text-align: center;
+}
+.titulo{
+	padding: 6%;
+	font-family: 'Lato', sans-serif;
+}
+.fotex img{
+   width: 150px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 1%;
+}
+.mensaje{
+	background-color: #FF6A49;
+	text-align: center;
+}
+.icon-foco{				
+	  padding: 8% 3% 3% 4%;
+}
+.primer-border {
+  border: 1px dashed;
+  color: white;
+  width: 34%;
+  margin: 4% auto;
+}
+.lema{
+	font-size: 27px;
+	color: white;
+}
+.nosotros-footer{
+	background-color: #989898;
+}
+.parrafo{
+   color: white;
+  font-size: 21px;
+  padding: 0% 17%;
+  padding-bottom: 9%;
+}
+.nombre-ocupacion h3{
+	color: #28c5e6;
+}
+
+.nombre-ocupacion h4{
+	color: #989898;
+}
+.concepto{
+	color:#989898 ;
+}
+.concepto{
+   padding: 5% 7%;
+  font-size: 19px;
+}
+.fundadores h2{
+	color:#989898 ;
+}
+.linea-abajo {
+  border-bottom: 1px dashed;
+  padding: 5% 0%;
+  color: rgb(152, 152, 152);
+}
+.segundo-titulo{
+	padding-top: 7%;
+}
