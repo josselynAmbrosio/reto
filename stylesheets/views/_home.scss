@@ -332,7 +332,7 @@ ul{
 .logo-blog{
 	text-align:center;	
 }
-.blog-texto{
+.blog-texto {
   background-color: rgb(241, 241, 241);
   color: grey;
   padding: 18% 15%;
@@ -342,6 +342,14 @@ ul{
   color: white;
   padding: 18% 15%;
 }
+a:hover{
+text-decoration: none;
+color: white;
+
+ }
+ a{
+  color: #989898;
+ }
 .logo-blog img{
 	border-radius: 50%;
 }

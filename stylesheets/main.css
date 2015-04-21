@@ -5849,6 +5849,13 @@ ul {
   color: white;
   padding: 18% 15%; }
 
+a:hover {
+  text-decoration: none;
+  color: white; }
+
+a {
+  color: #989898; }
+
 .logo-blog img {
   border-radius: 50%; }
 
@@ -5954,35 +5961,28 @@ textarea {
 
   .fondo-canbio {
     background-color: aliceblue; } }
-/*@font-face {
-font-family:lato-Italic;
-src: url("../fonts/lato-Italic.ttf");
-}
 @font-face {
-font-family:lato-Bold;
-src: url("../fonts/lato-Bold.ttf");
-}
+  font-family: lato-Italic;
+  src: url("../fonts/lato-Italic.ttf"); }
 @font-face {
-font-family:lato-Black;
-src: url("../fonts/lato-Black.ttf");
-}
+  font-family: lato-Bold;
+  src: url("../fonts/lato-Bold.ttf"); }
 @font-face {
-font-family:lato-Regular;
-src: url("../fonts/lato-Regular.ttf");
-}
+  font-family: lato-Black;
+  src: url("../fonts/lato-Black.ttf"); }
 @font-face {
-font-family:lato-Hairline;
-src: url("../fonts/Hairline.ttf");
-}
+  font-family: lato-Regular;
+  src: url("../fonts/lato-Regular.ttf"); }
 @font-face {
-font-family:lato-lightitalic;
-src: url("../fonts/lato-lightitalic.ttf");
-}
+  font-family: lato-Hairline;
+  src: url("../fonts/Hairline.ttf"); }
 @font-face {
-font-family:lato-lightitalic;
-src: url("../fonts/lato-lightitalic.ttf");
-}*/
-.nav {
+  font-family: lato-light;
+  src: url("../fonts/lato-light.ttf"); }
+@font-face {
+  font-family: lato-lightitalic;
+  src: url("../fonts/lato-lightitalic.ttf"); }
+.nav-interno {
   background-color: aliceblue; }
 
 .nosotros-home {
@@ -5993,6 +5993,11 @@ src: url("../fonts/lato-lightitalic.ttf");
   padding: 16% 30%;
   text-align: center;
   color: white; }
+
+.home-introduccion h2 {
+  font-family: 'Lato', sans-serif; }
+.home-introduccion h3 {
+  font-family: lato-light; }
 
 .home-icono {
   text-align: center;
@@ -6049,7 +6054,8 @@ src: url("../fonts/lato-lightitalic.ttf");
 
 .concepto {
   padding: 5% 7%;
-  font-size: 19px; }
+  font-size: 19px;
+  font-family: 'Lato', sans-serif; }
 
 .fundadores h2 {
   color: #989898; }
@@ -6061,5 +6067,69 @@ src: url("../fonts/lato-lightitalic.ttf");
 
 .segundo-titulo {
   padding-top: 7%; }
+
+.informacion {
+  font-size: 20px;
+  color: #989898;
+  font-family: 'Lato', sans-serif;
+  line-height: 29px; }
+
+.tema h3 {
+  color: #28c5e6;
+  font-family: 'Lato', sans-serif;
+  font-size: 39px;
+  letter-spacing: 1px; }
+.tema h5 {
+  color: #989898;
+  padding-top: 5%; }
+
+.subtitulo h5 {
+  color: #28c5e6;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif; }
+.subtitulo h6 {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  color: #989898; }
+
+.mas-blog {
+  background-color: #f1f1f1;
+  color: #bcbcbc;
+  padding: 49px 20px;
+  width: 60%;
+  font-size: 18px; }
+
+.logo-mas-blog img {
+  position: relative;
+  top: 28px;
+  width: 13%;
+  left: 22%; }
+
+.opciones {
+  color: #ffc200;
+  font-size: 20px;
+  padding-top: 11%;
+  margin-bottom: 0%; }
+
+.lista-opciones {
+  background-color: #f1f1f1;
+  padding: 32px 7px;
+  list-style: none;
+  list-style-type: none;
+  width: 60%; }
+  .lista-opciones li {
+    border-bottom: 1px solid #bcbcbc;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif; }
+
+.informacion {
+  font-size: 21px;
+  color: #989898;
+  font-family: 'Lato', sans-serif;
+  line-height: 29px;
+  padding-bottom: 5%; }
+
+.img-jovenes {
+  padding-bottom: 7%; }
 
 /*# sourceMappingURL=main.css.map */

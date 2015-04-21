@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
 font-family:lato-Italic;
 src: url("../fonts/lato-Italic.ttf");
 }
@@ -19,16 +19,16 @@ font-family:lato-Hairline;
 src: url("../fonts/Hairline.ttf");
 }
 @font-face {
-font-family:lato-lightitalic;
-src: url("../fonts/lato-lightitalic.ttf");
+font-family:lato-light;
+src: url("../fonts/lato-light.ttf");
 }
 @font-face {
 font-family:lato-lightitalic;
 src: url("../fonts/lato-lightitalic.ttf");
-}*/
+}
 
 
-.nav{
+.nav-interno{
 	background-color: aliceblue;
 }
 .nosotros-home{
@@ -39,6 +39,14 @@ src: url("../fonts/lato-lightitalic.ttf");
 	padding: 16% 30%;
 	text-align: center;
 	color: white;
+}
+.home-introduccion{
+	h2{
+	font-family: 'Lato', sans-serif;
+	}
+	h3{
+		font-family: lato-light;
+	}
 }
 .home-icono{
   text-align: center;
@@ -97,6 +105,8 @@ src: url("../fonts/lato-lightitalic.ttf");
 .concepto{
    padding: 5% 7%;
   font-size: 19px;
+	font-family: 'Lato', sans-serif;
+
 }
 .fundadores h2{
 	color:#989898 ;
