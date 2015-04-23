@@ -53,3 +53,16 @@ label {
   height: 173px;
   margin-top: 7%;
 }
+
+@media screen and (max-width:$screen-phone){
+  .presentacion h2{
+    color: gray;
+  }
+  form {
+  padding: 19% 15% 0% 16%;
+ }
+ .boton-cuenta .btn{
+  position: relative;
+  margin-bottom: 27%;
+ }
+}

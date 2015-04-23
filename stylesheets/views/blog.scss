@@ -4,6 +4,20 @@
   font-family: 'Lato', sans-serif;
   line-height: 29px;
 }
+.informacion h6{
+  font-size: 20px;
+  color: rgb(152, 152, 152);
+  margin-bottom: 26%;
+}
+h6{font-size: 21px;
+  margin-bottom: 94px;
+  color: rgba(128, 128, 128, 0.71);
+}
+span{
+  font-family: 'Lato', sans-serif;
+  color: rgba(168, 168, 168, 0.77);
+
+}
 .tema {
 	h3{
 	color: #28c5e6;
@@ -25,7 +39,7 @@
 	h6{
 		font-size: 24px;
        font-family: 'Lato', sans-serif;
-       color: #989898;
+    color: rgba(128, 128, 128, 0.54);
 	}
 }
 .mas-blog {
@@ -34,6 +48,10 @@
   padding: 49px 20px;
   width: 60%;
   font-size: 18px;
+}
+.mas-blog p{
+  font-family: 'Lato', sans-serif;
+
 }
 .logo-mas-blog img {
   position: relative;
@@ -49,7 +67,7 @@
 }
 .lista-opciones{
 	background-color: #f1f1f1;
-  padding: 32px 7px;
+ padding: 32px 21px;
   list-style: none;
   list-style-type: none;
   width: 60%;

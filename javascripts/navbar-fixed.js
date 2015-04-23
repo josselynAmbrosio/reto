@@ -1,10 +1,13 @@
 $(window).scroll(function(){
-	var menu= $(this).scrollTop();
-	if (menu > 650){
-		$(".navbar").addClass("scroll")
+	var navegador= $(this).scrollTop();
+	if (navegador > 650){
+		$(".navbar").addClass("scroll");
+		$(".navbar-brand").removeClass("hidden")
 	}
-	else if (menu < 500){
+	else if (navegador < 500){
 		$(".navbar").removeClass("scroll");
+		$(".navbar-brand").addClass("hidden")
+
 	}
 });
 
@@ -13,8 +16,10 @@ $(window).scroll(function(){
 
 
 $(document).ready(function(){
-    $(".exterior").hover(function(){
-        $(".text-oculto").toggleClass("hidden");
+    $(".externo").hover(function(){
+        $(".texto-interno").toggleClass("hidden");
         $(".interno-overlay").toggleClass("hidden");
     });
 });
+
+
