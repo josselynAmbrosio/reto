@@ -5551,13 +5551,37 @@ button.close {
 @font-face {
   font-family: lato-lightitalic;
   src: url("../fonts/lato-lightitalic.ttf"); }
+.navbar-default .navbar-nav > li > a {
+  font-size: 24px; }
+
+.navbar {
+  background-color: transparent;
+  transition: 0.5s ease-in-out; }
+
+a {
+  color: #FEFEFE; }
+
+.navbar.scroll {
+  background-color: aliceblue;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+
+li .btn-default {
+  color: #FFFFFF;
+  background-color: #BCBCBC;
+  border-color: #BCBCBC; }
+
+li {
+  font-family: lato-light;
+  font-size: 19px; }
+
 .container-intro {
   background-image: url(../img/home.png);
   height: 726px; }
 
 nav.navbar.navbar-default {
   margin-bottom: 0;
-  background-color: transparent;
   border-color: transparent; }
 
 .row {
@@ -5565,7 +5589,7 @@ nav.navbar.navbar-default {
 
 .home-icon {
   text-align: center;
-  padding: 50px 0; }
+  padding: 110px 0 10px; }
 
 .home-texto {
   text-align: center;
@@ -5583,10 +5607,10 @@ nav.navbar.navbar-default {
   padding: 9px 32px;
   border-radius: 10px; }
 
-.flecha {
+.flecha-botom {
   position: relative;
   text-align: center;
-  top: 27%; }
+  top: 166px; }
 
 .flecha2 {
   position: relative;
@@ -5595,7 +5619,8 @@ nav.navbar.navbar-default {
 
 .metodologia-texto {
   text-align: center;
-  margin: 7%; }
+  margin: 7%;
+  font-family: lato-light; }
 
 .metodologia-texto h2 {
   margin-bottom: 3%;
@@ -5634,12 +5659,15 @@ nav.navbar.navbar-default {
   top: 14%; }
 
 .interno {
-  border: dashed;
+  border: 2px  dashed white;
   border-radius: 50%;
   width: 450px;
   margin: auto;
   height: 450px;
   color: white; }
+
+.interno:hover {
+  border: 2px dashed #ff6a49; }
 
 .texto-interno {
   text-align: center;
@@ -5647,7 +5675,12 @@ nav.navbar.navbar-default {
 
 .texto-interno h4 {
   line-height: 40px;
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: lato-light; }
+
+.text-oculto {
+  padding: 10% 19%;
+  color: grey; }
 
 .externo {
   border-radius: 50%;
@@ -5657,6 +5690,9 @@ nav.navbar.navbar-default {
   padding-top: 8px;
   background-color: #ff6a49; }
 
+.externo:hover {
+  background-color: white; }
+
 .texto-derecha {
   position: relative;
   top: 242px;
@@ -5664,12 +5700,14 @@ nav.navbar.navbar-default {
   left: 30px; }
 
 .texto-derecha h3 {
-  color: #ff6a49; }
+  color: #ff6a49;
+  font-family: lato-light; }
 
 .texto-derecha h4 {
   color: #bcbcbc;
   line-height: 25px;
-  font-size: 19px; }
+  font-size: 19px;
+  font-family: lato-light; }
 
 .texto-izquierda {
   position: relative;
@@ -5678,23 +5716,27 @@ nav.navbar.navbar-default {
   right: 30px; }
 
 .texto-izquierda h3 {
-  color: #ff6a49; }
+  color: #ff6a49;
+  font-family: lato-light; }
 
 .texto-izquierda h4 {
   color: #bcbcbc;
   line-height: 25px;
-  font-size: 19px; }
+  font-size: 19px;
+  font-family: lato-light; }
 
 .texto-abajo {
   padding-top: 113px;
   text-align: center; }
   .texto-abajo h3 {
-    color: #ff6a49; }
+    color: #ff6a49;
+    font-family: lato-light; }
   .texto-abajo h4 {
     color: #bcbcbc;
     line-height: 25px;
     font-size: 19px;
-    padding-bottom: 32%; }
+    padding-bottom: 32%;
+    font-family: lato-light; }
 
 .boton-interno .btn {
   padding: 16px 69px;
@@ -5714,7 +5756,8 @@ nav.navbar.navbar-default {
 .texto-postulante {
   text-align: center;
   color: white;
-  padding: 5%; }
+  padding: 5%;
+  font-family: lato-light; }
 
 .icono-10 {
   position: relative;
@@ -5722,18 +5765,13 @@ nav.navbar.navbar-default {
   bottom: 66px;
   z-index: 8; }
 
-.dashed-left {
-  border-left: dashed 1px white; }
-
-.opcion2 {
-  height: 189px; }
-
 .texto-crea {
   border-bottom: 1px dashed;
   color: white; }
   .texto-crea h4 {
     padding-right: 163px;
-    font-size: 27px; }
+    font-size: 27px;
+    font-family: lato-light; }
 
 .logonumero1 {
   text-align: right; }
@@ -5742,22 +5780,42 @@ nav.navbar.navbar-default {
   color: white;
   padding: 4% 12%;
   font-size: 26px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  font-family: lato-light; }
+
+.dashed-2 {
+  border-left: dashed 1px white;
+  position: relative;
+  height: 150px; }
 
 .boton-ver {
-  padding: 3%;
-  text-align: center; }
+  padding: 0% 0% 10%;
+  text-align: center;
+  position: relative; }
 
 .btn-info {
   border-color: #FFFFFF; }
 
+.dashed-2 {
+  height: 140px;
+  border-bottom: 1px;
+  -webkit-transform: translateY(-43px) translateX(380px) rotate(180deg);
+  position: absolute;
+  top: 154px;
+  border: 1px dashed;
+  color: white; }
+
 .empresas {
   text-align: center; }
 
+.empresas-texto p {
+  font-family: lato-light; }
 .empresas-texto h3 {
-  color: grey; }
+  color: grey;
+  font-family: lato-light; }
 .empresas-texto h4 {
-  color: #37c2bc; }
+  color: #37c2bc;
+  font-family: lato-light; }
 
 .border-bottom {
   border-bottom: 1px dashed;
@@ -5771,11 +5829,13 @@ nav.navbar.navbar-default {
   text-align: center; }
 
 .texto-centros h3, .texto-centros p {
-  color: white; }
+  color: white;
+  font-family: lato-light; }
 .texto-centros span {
   color: #cdf30d; }
 .texto-centros h4 {
-  color: black; }
+  color: black;
+  font-family: lato-light; }
 
 .btn-success {
   background-color: #77d248;
@@ -5821,8 +5881,7 @@ ul {
   margin-left: inherit; }
 
 .boton-vertodos {
-  text-align: center;
-  margin-top: 10%; }
+  text-align: center; }
 
 .btn-warning {
   color: #fff;
@@ -5851,7 +5910,7 @@ ul {
 .flecha5 {
   position: relative;
   text-align: center;
-  top: 200px; }
+  top: 110px; }
 
 .titulo-blog {
   text-align: center;
@@ -5860,15 +5919,43 @@ ul {
 .logo-blog {
   text-align: center; }
 
+.blog-textouno {
+  background-color: #f1f1f1;
+  color: grey;
+  padding: 13% 8%;
+  width: 78%;
+  font-family: lato-light;
+  font-size: 19px;
+  margin: auto 21%; }
+
+.blog-textodos {
+  background-color: #f1f1f1;
+  color: grey;
+  padding: 13% 8%;
+  width: 78%;
+  font-family: lato-light;
+  font-size: 19px; }
+
 .blog-texto {
   background-color: #f1f1f1;
   color: grey;
-  padding: 18% 15%; }
+  padding: 13% 8%;
+  width: 78%;
+  font-family: lato-light;
+  font-size: 19px;
+  margin: auto; }
+
+.blog-textouno:hover {
+  background-color: #ffbd12;
+  color: white; }
+
+.blog-textodos:hover {
+  background-color: #ffbd12;
+  color: white; }
 
 .blog-texto:hover {
   background-color: #ffbd12;
-  color: white;
-  padding: 18% 15%; }
+  color: white; }
 
 a:hover {
   text-decoration: none;
@@ -5904,10 +5991,7 @@ a {
 .content {
   padding: 1% 15% 1% 1%; }
 
-textarea {
-  padding: 17px 25px 10px 10px;
-  resize: none; }
-
+s
 .btn-primary {
   color: #fff;
   background-color: #BCBCBC;
@@ -5916,6 +6000,9 @@ textarea {
 .titulo-contacto {
   margin: 7% 0% 5%;
   color: #bcbcbc; }
+  .titulo-contacto h2 {
+    font-size: 41px;
+    color: #989898; }
 
 .redes img {
   border-radius: 50%;
@@ -5932,6 +6019,21 @@ textarea {
 .text-footer {
   text-align: right;
   color: white; }
+
+.formulario-contacto form {
+  padding: 3% 34% 0% 34%; }
+
+.formulario-contacto .form-group {
+  margin-bottom: 0px; }
+
+.botom-grey .btn-default {
+  color: #FFFFFF;
+  background-color: #BCBCBC;
+  border-color: #BCBCBC; }
+
+.botom-grey {
+  text-align: right;
+  padding-top: 6%; }
 
 @media screen and (max-width: 480px) {
   .navbar-toggle {
@@ -5962,16 +6064,22 @@ textarea {
   .redes {
     text-align: center; }
 
-  .blog-texto {
-    background-color: white;
+  .blog-textouno, .blog-textodos, .blog-texto {
+    background-color: #FFFFFF;
+    color: grey;
+    padding: 13% 0%;
+    width: 85%;
+    font-family: lato-light;
+    font-size: 19px;
+    margin: auto 12%;
     text-align: center; }
 
   .linea1 {
-    -webkit-transform: translateY(-97px) translateX(211px) rotate(90deg); }
+    -webkit-transform: translateY(-86px) translateX(162px) rotate(90deg); }
 
   .linea3 {
     width: 223px;
-    -webkit-transform: translateY(344px) translateX(107px) rotate(180deg); }
+    -webkit-transform: translateY(344px) translateX(48px) rotate(180deg); }
 
   .content {
     padding: 3% 18% 4% 3%;
@@ -5981,7 +6089,35 @@ textarea {
     padding: 0% 12%; }
 
   .fondo-canbio {
-    background-color: aliceblue; } }
+    background-color: aliceblue; }
+
+  .logonumero1 {
+    text-align: center; }
+
+  .icono-10 {
+    left: 30%;
+    bottom: 1%; }
+
+  .formulario-contacto form {
+    padding: 3% 14% 0% 12%; }
+
+  .titulo-contacto h2 {
+    font-size: 36px;
+    color: #989898; }
+
+  .contacto {
+    background-color: #f1f1f1;
+    height: 590px;
+    text-align: center; }
+
+  .home-texto h3 {
+    font-size: 20px; }
+
+  .text-footer {
+    text-align: center; }
+
+  .icono-10 img {
+    width: 20%; } }
 @font-face {
   font-family: lato-Italic;
   src: url("../fonts/lato-Italic.ttf"); }
@@ -6162,7 +6298,8 @@ form {
   padding: 20% 21% 0% 11%; }
 
 .form-control {
-  border-radius: 0px; }
+  border-radius: 0px;
+  height: 37px; }
 
 label {
   display: inline-block;
@@ -6184,7 +6321,8 @@ label {
   font-size: 17px; }
 
 .boton-cuenta {
-  text-align: right; }
+  text-align: right;
+  margin-top: 9%; }
 
 .presentacion h2 {
   color: #28c5e6;
@@ -6202,7 +6340,7 @@ label {
 
 .footer-grey {
   background-color: #989898;
-  height: 204px;
+  height: 173px;
   margin-top: 7%; }
 
 /*# sourceMappingURL=main.css.map */
