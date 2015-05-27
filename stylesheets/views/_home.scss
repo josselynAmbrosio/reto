@@ -69,19 +69,25 @@ nav.navbar.navbar-default {
   padding: 110px 0 10px;
 }
 
-.home-texto{
+.home-texto {
   text-align: center;
+h2{
   color: rgb(48, 194, 227);
   padding: 0 7%;
-}
-.home-texto h3{
+  font-size: 30px;
+ }
+ h3{
   color: rgb(188, 188, 188);
+    margin: 5% 0%;
+    line-height: 30px;
+ }
 }
 .btn-danger {
   color: #fff;
   background-color: #FF6A49;
  		
 }
+
 .btn{
   padding: 9px 32px;
   border-radius: 10px;
@@ -89,7 +95,7 @@ nav.navbar.navbar-default {
 .flecha-botom {
   position: relative;
   text-align: center;
-  top: 166px;
+  top: 137px;
 }
 .flecha2 {
   position: relative;
@@ -263,9 +269,10 @@ nav.navbar.navbar-default {
 .texto-postulante {
   h3{
   font-size: 43px;
+  font-weight: 800
  }
  p{
-  font-size: 32px;
+  font-size: 30px;
  }
 }
 .icono-10{
@@ -287,7 +294,7 @@ nav.navbar.navbar-default {
 .logonumero1{
 	text-align: right;
 }
-.parrafo-crea{
+.parrafo-crea p{
 	color: white;
     padding: 4% 12%;
    font-size: 26px;
@@ -354,13 +361,11 @@ nav.navbar.navbar-default {
   color: #ffc200;
   font-size: 33px;
 }
-.texto-centros{
-	h5{
-	color: white;
+.texto-centro h5{
   font-family: lato-light;
-  font-size: 22px;
-  padding: 0 25%;
+
 }
+.texto-centros{
 p{
   color: white;
   font-family: lato-light;
@@ -478,7 +483,7 @@ ul{
 .flecha5 {
   position: relative;
   text-align: center;
-  top: 110px;
+  top: 178px;
 }
 .titulo-blog{
   text-align: center;
@@ -590,9 +595,12 @@ color: white;
 	background: rgb(188, 188, 188);
 	height:90px;
 }
-.text-footer{
+.text-footer {
 	text-align: right;
+    span{
     color: white;
+
+    }
 }
 .formulario-contacto form{
   padding: 3% 34% 0% 34%;
